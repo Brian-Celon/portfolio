@@ -1,7 +1,3 @@
-# portfolio
-My professional portfolio showcasing web development projects and technical skills.
-
-
 # 🚀 Professional Developer Portfolio
 
 Welcome to my personal portfolio! This project serves as a showcase of my web development journey, technical projects, and coding standards. I built this from scratch to demonstrate my proficiency in semantic HTML, responsive CSS, and clean JavaScript.
