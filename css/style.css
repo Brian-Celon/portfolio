@@ -1,16 +1,31 @@
 .home-section {
     text-align: center;
-    margin-top: 50px;
+    padding: 100px;
+    background-color: #D21312;
 }
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:visited {
+    color: white;
+}
+
+.navigation a:hover {
+    color: #ccc; /* optional: subtle hover effect */
+}
+
 
 .navigation {
     list-style-type: none;
     display: flex;
-    padding: 0;
-    margin: 0;
-    margin-top: 25px;
+    margin: 0;;
     gap: 80px;
     justify-content: center;
+    background-color: #070A52;
+    padding: 15px;
 }
 
 .about-me-section {
@@ -39,3 +54,30 @@
 }
 
 
+.home-section h1 {
+    text-align: left;
+    display: inline-block;
+}
+
+.home-section {
+    display: flex;
+    justify-content: center; /* keeps the whole block centered on the page */
+}
+
+.line1 {
+    display: block;
+}
+
+.line2 {
+    display: block;
+    margin-left: 80px; /* adjust until it lines up under the comma */
+}
+
+.line3 {
+    display: block;
+    margin-left: 160px; /* adjust until it lines up after "Brian" */
+}
+
+.about-me-section {
+    background-color: #;
+}
