@@ -3,48 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Home</title>
 </head>
 <body>
     <header>
-        <h1>Hello,<br> 
-            I'm Brian<br>
-            IT Student
-        </h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li> 
+    <nav class="pages">
+        <ul class="navigation">
+            <li><a href="#home">Home</a></li> 
             <li><a href="#about-me">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contacts">Contacts</a></li>
         </ul>
     </nav>
+
+        <section id="home" class="home-section">
+        <h1>Hello,<br> 
+            I'm Brian<br>
+            IT Student
+        </h1>
+        </section>
+    </header>
     
     <main>
+        <div class="about">
         <section class="about-me-section" id="about-me">
+        <img src="./assests/me.png" alt="picture of me" class="profile">
         <h2>About me</h2>
-        <p>
+        <p class="description-about-me">
             Growing up I have always been surrounded with technology. 
             From as little as 6 years old I remember holding my first phone playing 
-            angry birds while watching Stampylonghead on youtube.  It was amazing. Naturally, 
+            angry birds while watching Stampylonghead on youtube. It was amazing. Naturally, 
             as I grew older I became fascinated in technology and I developed an interest in coding 
-            and how the internet works.So stepping into high-school I took on classes about technology. Specifically, web development and python classes. This only further enhanced my interest and I am now a 3rd year IT student at Pambayang Dalubhasaan ng Marilao and an aspiring web developer. 
+            and how the internet works. So stepping into high-school I took on classes about technology. Specifically, web development and python classes. This only further enhanced my interest and I am now a 3rd year IT student at Pambayang Dalubhasaan ng Marilao and an aspiring web developer. 
         </p>
-
-        <h3>Experience</h3>
-        <p>In progress...</p>
-
-
+        </section>
+        </div>
+        
+        <search class="skills">
         <h3>Technical Skills</h3>
         <ul>
             <li><b>Languages:</b> C, C#, Python</li>
             <li><b>Technologies:</b> HTML5, CSS</li>
             <li><b>Tools & Version Control:</b> Git, GitHub</li>
         </ul>
-        </section>
+        </search>
+      
+        <h3>Experience</h3>
+        <p>In progress...</p>
+        
 
         <section class="projects-section" id="projects">
         <h2>My personal projects</h2>
