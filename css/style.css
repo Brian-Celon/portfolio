@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #0A0A0A;
+    color: white; /* optional: default text color so you don't repeat it everywhere */
+}
+
 .navigation {
     list-style: none;
     display: flex;
@@ -7,6 +18,7 @@
     padding: 20px;
     margin: 0;
     background-color: black;
+    transition: ;
 }
 
 .navigation a{
@@ -17,7 +29,7 @@
 }
 
 .navigation a:hover{
-    color: purple   ;
+    color: #D8FF4B;
 }
 
 .home-section{
@@ -33,7 +45,7 @@ h1 {
 }
 
 .about-me-section{
-    background-color: grey;
+    background-color: #1A1A1A;
     padding: 100px;
     display: flex;
     align-items: center;
@@ -46,12 +58,64 @@ h1 {
     display: flex;
 }
 
-.about-me-section h2{
+.about-me-section h2 {
     font-size: 50px;
+    color: white;
     display: flex;
 }
+.about {
+    color: white;
+}
 
-.skills {
-    background-color: gainsboro;
-    padding: 50px;
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A0A0A;
+}
+
+.logo {
+    width: 50px;
+}
+.technical {
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.skill {
+    margin: 50px;
+    border: 2px solid white;
+    background-color: #1A1A1A;
+    padding: 25px;
+    border-radius: 20px;
+    color: white;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.experience {
+    background-color: #3A3A3A;
+    padding: 100px;
+}
+
+.experience h2, .experience p {
+    font-size: 40px;
+    text-align: center;
+}
+
+.projects-section {
+    background-color: #8A8A8A;
+    padding: 100px;
+}
+
+.projects-section h2, .projects-section p {
+    font-size: 40px;
+    text-align: center;
+}
+
+.contacts-section {
+    
 }
