@@ -22,6 +22,7 @@ portfolio/
 
 ## Future Enhancements
 Create dedicated database for form inputs
+Hover effect on the skills icons
 
 ## Website is now love
 link: https://brian-celon.github.io/portfolio/
