@@ -18,3 +18,10 @@ portfolio/
 ├── js/              # DOM manipulation and logic
 ├── index.html       # Main landing page
 └── README.md        # Documentation
+
+
+## Future Enhancements
+Create dedicated database for form inputs
+
+## Website is now love
+link: https://brian-celon.github.io/portfolio/
