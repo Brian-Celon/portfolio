@@ -26,8 +26,11 @@
     </header>
     
     <main>
-        <section class="about-me-section" id="about-me">
-        <img src="./assests/me.png" alt="picture of me" class="profile">
+        <section id="about-me">
+        <section class="about-me-section">
+        <div class="contain">
+        <img src="/assests/me.png" alt="picture of me" class="profile">
+        
         <div class="about">
         <h2>About me</h2>
         <p>
@@ -38,7 +41,9 @@
             and how the internet works. So stepping into high-school I took on classes about technology. Specifically, web development and python classes. This only further enhanced my interest and I am now a 3rd year IT student at Pambayang Dalubhasaan ng Marilao and an aspiring web developer. 
         </p>
         </div>
+        </div>
         </section>
+
 
         <h3 class="technical">Technical Skills</h3>
         <div class="grid">
@@ -64,7 +69,7 @@
         <h2>Experience</h2>
         <p>In progress...</p>
         </section>
-
+        </section>
         <section class="projects-section" id="projects">
         <h2>My personal projects</h2>
         <p>Currently under construction</p>
@@ -72,30 +77,33 @@
     </main>
 
     <footer>
-        <p>get in touch </p>
-        <p>CONTACT</p>
-
-        <section class="contacts-section" id="contacts"></section>
+        <div class="title">
+        <p>CONTACT ME</p>
+        </div>
         <div class="socials">
+        <section class="contacts-section" id="contacts">
+        <h3>Socials</h3>
         <p><a href="https://www.facebook.com/howard.celon/" target="_self ">Facebook &#8599</a></p>
         <p><a href="https://github.com/Brian-Celon" target="_self">Github &#8599</a></p>
-        <p><a href="">brianhoward.celon@gmail.com</a></p>
-        </div>
+        <p><a href="">brianhoward.celon@gmail.com &#8599</a></p>
         </section>
 
-        <aside>
+        <aside class="form">
             <form>
-                <label for="name">Your Name</label><br>
-                <input type="text" id="name"><br>
+                <label for="name">Your Name</label>
+                <input type="text" id="name">
 
-                <label for="email">Your Email</label><br>
-                <input type="email" id="email"><br>
+                <label for="email">Your Email</label>
+                <input type="email" id="email">
 
-                <label for="message">Your Message</label><br>
+                <label for="message">Your Message</label>
                 <textarea></textarea>
+                
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
             </form>
-
         </aside>
+        </div>
     </footer>
 
 </body>
