@@ -45,7 +45,10 @@ body {
 }
 
 .home-section{
-    background-image: url(../assests/background.jpg);
+    background-image: url("../assests/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 150px;
 
 }
